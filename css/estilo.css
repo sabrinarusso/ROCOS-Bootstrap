@@ -1,0 +1,5 @@
+.fotosIndex img{height: 550px;}
+@media screen and (max-width: 768px) {
+    .fotosIndex img{height: 300px;}
+}
+.imgNosotros img{height: 336px; width: 400px;}

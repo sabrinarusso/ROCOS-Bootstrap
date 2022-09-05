@@ -12,6 +12,17 @@
 .loremIndex{
     background-image: url(../assets/img/fondomanza.jpg); background-position-y: 70%; background-position-x: 60%;
     padding: 80px; font-size: 20px; font-family: 'Times New Roman', Times, serif;
-
 }
 .row>*{padding-left: 0; padding-right: 0;}
+.footer{background-color:darkgrey;}
+.inicio{background-image: url(../assets/img/fondomanza.jpg); padding: 200px; background-position-y: 70%; background-position-x: 40%;}
+@media screen and (max-width: 768px) {
+    .inicio{padding: 100px; background-position-x: 60%;}
+}
+.imgIndex img{height: 300px; 
+background-position-y:bottom;}
+.textoIndex{
+    font-family:monospace;
+    font-size: 20px;
+}
+.logo{border-radius: 60%;}

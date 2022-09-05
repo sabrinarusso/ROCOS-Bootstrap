@@ -2,4 +2,16 @@
 @media screen and (max-width: 768px) {
     .fotosIndex img{height: 300px;}
 }
-.imgNosotros img{height: 336px; width: 400px;}
+.imgNosotros img{height: 300px; }
+.loremNos{
+    padding: 100px;
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.center{ text-align: center;}
+.loremIndex{
+    background-image: url(../assets/img/fondomanza.jpg); background-position-y: 70%; background-position-x: 60%;
+    padding: 80px; font-size: 20px; font-family: 'Times New Roman', Times, serif;
+
+}
+.row>*{padding-left: 0; padding-right: 0;}

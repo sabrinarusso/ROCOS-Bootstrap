@@ -1,24 +1,30 @@
+@import "footer";
 .inicio{
     background-image: url(../assets/img/fondomanza.jpg);
     padding: 200px; background-position-y: 70%; 
     background-position-x: 40%;
     p {
         font-family:monospace;
+        font-size: 24px;
     }
 }
 @media screen and (max-width: 768px) {
     .inicio{padding: 100px; background-position-x: 60%;}
 }
-
 .imgIndex{
     height: 300px; 
     background-position-y:bottom;
 }
 .center{text-align: center;
-    p{ font-family: Verdana, Geneva, Tahoma, sans-serif;
+    p{ font-family: Verdana, Geneva, Tahoma, sans-serif; padding: 60px;
     }
 }
 .imgNosotros{
     img { height: 300px;}
  }
 .row>*{padding-left: 0; padding-right: 0;}
+.menu{ width: 60%; margin-left: 20%;}
+.imgMenu{
+    img{width: 300px; height: 400px; margin: 0;}
+}
+.reserva{background-image: url(../assets/img/cafeteria.webp); margin: 30px; margin-top: 0px; padding: 10px;}

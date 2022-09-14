@@ -1,4 +1,8 @@
 @import "footer";
+@import "bucles";
+@import "map";
+@import "extend";
+@import "mixin";
 .inicio{
     background-image: url(../assets/img/fondomanza.jpg);
     padding: 200px; background-position-y: 70%; 
@@ -27,4 +31,4 @@
 .imgMenu{
     img{width: 300px; height: 400px; margin: 0;}
 }
-.reserva{background-image: url(../assets/img/cafeteria.webp); margin: 30px; margin-top: 0px; padding: 10px;}
+.reserva{background-image: url(../assets/img/cafeteria.webp); ; margin-top: 0px; padding: 10px;}

@@ -1,0 +1,20 @@
+$colores :(
+    color1: black,
+    color2: white,
+    color3: rgb(190, 204, 190),
+);
+@each $clave, $valor in $colores {
+    .#{$clave}{
+        color: $valor;
+    }
+}
+$estilos:(
+    centro: center,
+    letra: arial,
+    padding: 40px
+);
+.encabezado{
+    text-align: map-get($estilos, centro);
+    padding: map-get($estilos, padding);
+    font-family: map-get($estilos, letra);
+}

@@ -1,0 +1,9 @@
+@mixin texto ($color, $background, $fsize, $center,){
+    color: $color;
+    background-color: $background;
+    font-size: $fsize;
+    text-align: $center;
+}
+.textoUbi div{ 
+    @include texto (black, gray, 20px, center);
+}

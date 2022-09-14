@@ -1,0 +1,5 @@
+@for $margen from 1 to 5 {
+    .m-#{$margen}{
+        margin: 10px * $margen; 
+    }
+}

@@ -1,0 +1,9 @@
+.boton-enviar{
+    background-color: rgb(205, 205, 205) ;
+    border: 1px solid black;
+}
+.boton-resetear{
+    @extend .boton-enviar;
+    background-color: rgb(38, 39, 39);
+    color: aliceblue;
+}

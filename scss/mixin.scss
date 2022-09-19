@@ -7,3 +7,15 @@
 .textoUbi div{ 
     @include texto (black, gray, 20px, center);
 }
+@mixin letras ($color, $fsize, $center, $ffamily) {
+    color: $color;
+    font-size: $fsize; 
+    text-align: $center;
+    font-family: $ffamily;
+}
+.inicio p{
+    @include letras (black, 30px, center,  'Alfa Slab One' cursive );
+}
+.reserva{
+    @include letras (black, 20px, left , 'Gill Sans' 'Gill Sans MT' Calibri 'Trebuchet MS' sans-serif);
+}

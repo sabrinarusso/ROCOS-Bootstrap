@@ -1,7 +1,8 @@
 .footer {
-  background-color: beige; }
+  background-color: #ccccc5; }
   .footer div {
-    padding: 10px; }
+    padding: 10px;
+    padding-top: 0; }
 
 .m-1 {
   margin: 10px; }
@@ -14,6 +15,21 @@
 
 .m-4 {
   margin: 40px; }
+
+.p-1 {
+  padding: 10px; }
+
+.p-2 {
+  padding: 20px; }
+
+.p-3 {
+  padding: 30px; }
+
+.p-4 {
+  padding: 40px; }
+
+.p-5 {
+  padding: 50px; }
 
 .color1 {
   color: black; }
@@ -43,14 +59,23 @@
   font-size: 20px;
   text-align: center; }
 
+.inicio p {
+  color: black;
+  font-size: 30px;
+  text-align: center;
+  font-family: "Alfa Slab One" cursive; }
+
+.reserva {
+  color: black;
+  font-size: 20px;
+  text-align: left;
+  font-family: "Gill Sans" "Gill Sans MT" Calibri "Trebuchet MS" sans-serif; }
+
 .inicio {
   background-image: url(../assets/img/fondomanza.jpg);
   padding: 200px;
   background-position-y: 70%;
   background-position-x: 40%; }
-  .inicio p {
-    font-family: monospace;
-    font-size: 24px; }
 
 @media screen and (max-width: 768px) {
   .inicio {
@@ -84,6 +109,19 @@
   margin: 0; }
 
 .reserva {
-  background-image: url(../assets/img/cafeteria.webp);
+  background-image: url(../assets/img/cafeteriares.jpg);
   margin-top: 0px;
   padding: 10px; }
+
+.centroMenu {
+  text-align: center; }
+
+textarea {
+  font-size: medium; }
+
+@media screen and (max-width: 768px) {
+  .imgUbi img {
+    width: 350px; } }
+
+.direccion p {
+  margin-top: 40px; }

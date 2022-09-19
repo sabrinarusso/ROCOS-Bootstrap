@@ -3,3 +3,8 @@
         margin: 10px * $margen; 
     }
 }
+@for $padding from 1 to 6 {
+    .p-#{$padding}{
+        padding: 10px * $padding;
+    }
+}
